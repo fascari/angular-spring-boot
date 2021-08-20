@@ -8,12 +8,14 @@ import { ClientesModule } from './clientes/clientes.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component'
+import { LayoutComponent } from './layout/layout.component';
 
 import { ClientesService } from './services/clientes.service';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
