@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component'
 import { LayoutComponent } from './layout/layout.component';
 
 import { ClientesService } from './services/clientes.service';
+import { ServicoPrestadoModule } from './servico-prestado/servico-prestado.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { ClientesService } from './services/clientes.service';
     HttpClientModule,
     TemplateModule,
     ClientesModule,
+    ServicoPrestadoModule
   ],
   providers: [
     ClientesService
